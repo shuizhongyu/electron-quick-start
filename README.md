@@ -1,3 +1,27 @@
+# 初试electron
+
+node.js npm安装好之后，npm run start
+
+可运行得下图：
+
+![1544152806273](/home/ljx/github/ljx/electron-quick-start/1.png)
+
+运行所需要的文件：
+
+- `package.json` - 指向app的主程序，列出app的细节和依赖
+- `main.js` -app的主程序，来开始运行app，生成一个浏览器窗口来渲染html
+- `index.html` - 即本例中要渲染的网页
+
+
+
+
+
+
+
+
+
+
+
 # electron-quick-start
 
 **Clone and run for a quick way to see Electron in action.**

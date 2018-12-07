@@ -4,7 +4,7 @@ node.js npm安装好之后，npm run start
 
 可运行得下图：
 
-![1544152806273](electron-quick-start/1.png)
+![1544152806273](1.png)
 
 运行所需要的文件：
 

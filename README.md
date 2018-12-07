@@ -1,6 +1,14 @@
 # 初试electron
 
-node.js npm安装好之后，npm run start
+node.js npm安装好之后，
+
+```
+npm run start
+```
+
+
+
+## 运行
 
 可运行得下图：
 
@@ -8,11 +16,17 @@ node.js npm安装好之后，npm run start
 
 运行所需要的文件：
 
-- `package.json` - 指向app的主程序，列出app的细节和依赖
+- `package.json` - 指向app的主程序，列出app的细节和依赖。如app名称，版本，描述，关键字，作者，等细节。如果要打包程序，打包信息也要在这里描述,包括图标，背景等所有需要的东西。
 - `main.js` -app的主程序，来开始运行app，生成一个浏览器窗口来渲染html
 - `index.html` - 即本例中要渲染的网页
 
+## 打包
 
+上例中的package.json改为listen1中的相应文件，可以打包为appiamge/deb/tar.gz,参见dist下。
+
+```
+npm run dist:liunxx64
+```
 
 
 
